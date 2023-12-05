@@ -93,7 +93,7 @@ document.querySelectorAll(".project-card").forEach((card) => {
   gsap.from(card, {
     scrollTrigger: card,
     duration: 0.5,
-    opacity: 0,
+    opacity: 1,
     y: 50,
     stagger: 0.2, // Per un effetto a cascata se hai più card
   });

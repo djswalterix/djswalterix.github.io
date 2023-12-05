@@ -44,6 +44,9 @@ html {
 .section > :first-child {
   padding-top: 35vh;
 }
+.section-portfolio > :first-child {
+  margin-top: 35vh;
+}
 
 @media only screen and (max-width: 768px) {
   #subtitle {
@@ -74,12 +77,13 @@ html {
   display: block;
 }
 #section-portfolio {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0px 15px;
+  margin: 30vh auto;
+  padding: 10vh;
   text-align: center;
 }
-
+.section-portfolio div {
+  height: 100vh !important;
+}
 .project-card {
   background-color: #fff;
   border: 1px solid #e1e1e1;
@@ -116,18 +120,29 @@ html {
   text-transform: uppercase;
   z-index: 10; /* Assicurati che sia sopra gli altri elementi della card */
 }
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
+  #subtitle {
+    margin: 0;
+  }
+
   .section-portfolio {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: auto; /* Permette lo scorrimento orizzontale */
+    align-items: flex-end;
+    height: 100vh !important;
   }
 
   .project-card {
-    width: 100%;
+    max-width: 50%;
     flex: 0 0 50%; /* Ogni card occupa circa metà dello schermo su dispositivi mobili */
     margin-right: 20px; /* Aggiunge spazio a destra di ogni card */
-    /* Altre proprietà... */
+    height: 25vh;
+    margin-bottom: 10vh;
+  }
+  #section-portfolio {
+    height: 1vh;
+    padding: 0px 10px;
   }
 }
