@@ -16,31 +16,74 @@
       <h1 id="title">Walter.</h1>
       <h2 id="subtitle">Junior Full Stack Developer</h2>
     </header>
-    <div class="spacer" style="height: 700px"></div>
-    <div class="container">
-      <img id="photo" src="/assets/images/avatarWalter.png" alt="" />
-    </div>
-    <div class="container buttons ">    
-      <a href="#" class="button type--B">
-      <div class="button__line"></div>
-      <div class="button__line"></div>
-      <span class="button__text">PORTFOLIO</span>
-      <div class="button__drow1"></div>
-      <div class="button__drow2"></div>   
-
-
-       <a href="#" class="button type--B">
-        <div class="button__line"></div>
-        <div class="button__line"></div>
-        <span class="button__text">SKILLS</span>
-        <div class="button__drow1"></div>
-        <div class="button__drow2"></div>
+    <div class="section"></div>
+    <div class="section section-photo">
+      <div class="container">
+        <img id="photo" src="/assets/images/avatarWalter.png" alt="" />
       </div>
+      <div class="container buttons">
+        <a href="#section-portfolio" class="button type--B">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">PORTFOLIO</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+
+        <a href="#section-skills" class="button type--B">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">SKILLS</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="section section-skills" id="section-skills">
+      <div id="technologies">
+        <div class="tech" id="html-css">HTML/CSS</div>
+        <div class="tech" id="javascript">JAVASCRIPT</div>
+        <div class="tech" id="node">NODE</div>
+        <div class="tech" id="react">REACT</div>
+        <div class="tech" id="mysql">MYSQL</div>
+      </div>
+    </div>
+    <div class="section section-portfolio" id="section-portfolio">
+      <div></div>
+      <a href="https://studioruzza.net/" class="project-card">
+        <span class="live-badge">Real case</span>
+        <h3>Studio Ruzza</h3>
+        <p class="project-technologies">WordPress</p>
+      </a>
+
+      <a href="https://www.studiomarziodaltoso.it/" class="project-card">
+        <span class="live-badge">Real case</span>
+        <h3>Studio Marzio Dal Toso</h3>
+        <p class="project-technologies">WordPress</p>
+      </a>
+
+      <a href="https://github.com/djswalterix/bookRecipt" class="project-card">
+        <h3>Ricettario Smart</h3>
+        <p class="project-technologies">React, Node, MySql</p>
+      </a>
+
+      <a
+        href="https://github.com/djswalterix/new-york-times-clone"
+        class="project-card"
+      >
+        <h3>New York Times</h3>
+        <p class="project-technologies">React</p>
+      </a>
+
+      <!-- Ripeti .project-card per altri progetti -->
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/assets/frameworks/Scrollify-master/jquery.scrollify.js"></script>
 
+    <script src="/assets/js/scrollify.js"></script>
     <script src="/assets/js/gsap.js"></script>
   </body>
 </html>
