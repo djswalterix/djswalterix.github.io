@@ -8,7 +8,7 @@ In my portfolio, you will find a selection of projects that I have completed. So
 
 - [Studio Ruzza](https://studioruzza.net/): A website created with WordPress for a real estate studio.
 - [Marzio Dal Toso](https://www.studiomarziodaltoso.it/): A website created with WordPress for a Geometer.
-- [Ricettario Smart]([https://studioruzza.net/](https://github.com/djswalterix/bookRecipt)): A Web App that allows you to create and use a cookbook (Node, React, MySql).
+- [Ricettario Smart](https://github.com/djswalterix/bookRecipt): A Web App that allows you to create and use a cookbook (Node, React, MySql).
 - [Clone New York Times](https://github.com/djswalterix/new-york-times-clone): A clone of the NYT (React).
 ## Competenze
 
