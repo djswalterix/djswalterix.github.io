@@ -6,4 +6,10 @@ $(function () {
     scrollSpeed: 800,
     // updateHash: false, // Imposta su true se vuoi aggiornare l'hash URL durante lo scorrimento
   });
+  $(".button").on("click", function (e) {
+    e.preventDefault();
+    var target = $(this).attr("href");
+
+    $.scrollify.move(target);
+  });
 });
