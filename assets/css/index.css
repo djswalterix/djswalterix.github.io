@@ -45,7 +45,7 @@ html {
   padding-top: 35vh;
 }
 .section-portfolio > :first-child {
-  margin-top: 35vh;
+  margin-top: 15vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -77,13 +77,12 @@ html {
   display: block;
 }
 #section-portfolio {
-  margin: 30vh auto;
   padding: 10vh;
   text-align: center;
-}
-.section-portfolio div {
+  margin: 0 auto;
   height: 100vh !important;
 }
+
 .project-card {
   background-color: #fff;
   border: 1px solid #e1e1e1;

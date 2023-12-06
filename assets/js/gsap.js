@@ -94,7 +94,7 @@ document.querySelectorAll(".project-card").forEach((card) => {
     scrollTrigger: card,
     duration: 0.5,
     opacity: 1,
-    y: 50,
+    y: 0,
     stagger: 0.2, // Per un effetto a cascata se hai più card
   });
 });
