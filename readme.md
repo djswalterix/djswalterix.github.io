@@ -10,7 +10,7 @@ In my portfolio, you will find a selection of projects that I have completed. So
 - [Marzio Dal Toso](https://www.studiomarziodaltoso.it/): A website created with WordPress for a Geometer.
 - [Ricettario Smart](https://github.com/djswalterix/bookRecipt): A Web App that allows you to create and use a cookbook (Node, React, MySql).
 - [Clone New York Times](https://github.com/djswalterix/new-york-times-clone): A clone of the NYT (React).
-## Competenze
+## Skills
 
 Le mie competenze includono:
 
@@ -18,7 +18,7 @@ Le mie competenze includono:
 - JAVASCRIPT
 - NODE
 - REACT
-## Contatti
+## Contact
 
 If you are interested in collaborating or want to learn more about my projects, feel free to contact me through the contact form on my site or via the following social channels:
 
